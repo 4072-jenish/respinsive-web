@@ -1,0 +1,154 @@
+@media (max-width:1200px){
+
+    .countainer{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+        padding-left: 80px;
+        padding-right: 80px;
+        
+    }
+
+       /* ==================== Banner =================== */
+      .Banner .row{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           align-items: center;
+           flex-direction: column;
+      }
+       /*======================== Servise =========================*/
+      .Servise-1 {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           align-items: center;
+           flex-direction: column;
+      }
+      .Servise-2{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           align-items: center;
+      }
+      .Servise-2 .col-3{
+           width: 50%;
+      }
+      /* ==================== Featuer ================== */
+      .Featuers .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      }
+      /* ================= Project ============== */
+      .project-head{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      } 
+      .project-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+      } 
+      .project-center .col-6{
+        width: 60%;
+      } 
+
+      .project-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      } 
+      .project-bottom .col-4{
+       width: 50%;
+      } 
+      
+      .Projects .col-12{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+      } 
+      .Projects .col-12 .project-base-1{
+        height: auto;
+        width: 33.33%;
+      } 
+      /* ======================= Video ==================== */
+      .video{
+        width: 1080px;
+        height: 358px;
+      }
+      /* =================== world ================ */
+      .world-heading h1{
+        margin: 0 auto;
+        width: 567px;
+        height: 87px; 
+        font-size: 42px;
+        font-family: 'Syne';
+        font-weight: 600;
+        color: var(--black);  
+        text-align: center;
+    } 
+    .world-heading p{
+        width: 567px;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 18px;
+        font-weight: 400;
+        color: var(--paragraph);
+        text-transform: none;
+    }
+    
+    .world-heading{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    .world-map img{
+
+        width: 882px;
+        height: 322px;     
+    }
+    .world-bottom .col-3{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .world-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* =========================TESTOMONIAL==================== */
+    .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    .testimonial-2 img{
+        width: 100%;     
+    } 
+
+
+
+}
+
+@media (max-width:992px){
+    
+}
+
+@media (max-width:768px){
+    
+}
